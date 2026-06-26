@@ -15,7 +15,7 @@ Main Finding:
 There is an increase in the mean height of 12-year-old girls from 1985-2019.
 
 How to Reproduce:
-Download the dataset from above link.
-Open the notebooks from the repo.
-Run the cells.
-Check the regression output, bootstrap confidence interval, and early-vs-recent mean comparison.
+#Download the dataset from above link.
+#Open the notebooks from the repo.
+#Run the cells.
+#Check the regression output, bootstrap confidence interval, and early-vs-recent mean comparison.
