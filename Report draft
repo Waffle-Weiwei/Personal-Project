@@ -1,3 +1,7 @@
-#There is an increase in the mean height of 12-year-old girls from 1985-2019.
-#I calculated a slope of 0.0835, a p-value of 1.3643 e-20, and a confidence interval of 0.0727 - 0.0942.
-#The increase in height is not necessarily caused by time, there may be another variable such as average childhood nutrition behind it.
+Finding: There is an increase in the mean height of 12-year-old girls from 1985-2019.
+
+Evidence: The linregress function from the Python library scipy.stats was used to calculate a slope of 0.0835 and a p-value of 1.3643 e-20. A bootstrap resampling loop was run 5000 times to calculate a 95% confidence interval of approximately 0.0727 - 0.0942. An early vs. recent subgroup comparison was made, where the early mean was about 146.015 and the recent mean was about 147.465. 
+
+Explanation: The positive slope, the really small p-value supporting no change, the 95% confidence interval being completely above zero, and a positive difference between the recent and early group all point to an increase in height over time.
+
+Note: The increase in height is not necessarily caused by time, there may be a confounding variable such as average childhood nutrition behind it.
