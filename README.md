@@ -1,2 +1,10 @@
 # Personal-Project
-Are 12-year-old girls getting taller over the years?
+Project question:
+
+Data Source:
+
+Method:
+
+Main Finding:
+
+How to Reproduce:
